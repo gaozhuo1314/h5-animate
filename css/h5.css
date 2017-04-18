@@ -1,0 +1,1556 @@
+@font-face {
+    src: url("w3.otf");
+    font-family: w3;
+}
+body{
+    position: relative;
+}
+
+.down{
+    position: absolute;
+    width: 0.88rem;
+    height: 0.49rem;
+    left: 50%;
+    margin-left: -0.44rem;
+    opacity: 1;
+    bottom: 1rem;
+    background: url("../images/down.png") no-repeat;
+    background-size: 100% 100%;
+    animation: down 1s infinite ease;
+    -webkit-animation: down 1s infinite ease;
+}
+@keyframes down
+{
+    0%   {opacity:0;}
+    100% {opacity:1;bottom: 0.3rem}
+}
+.mainLogo{
+    position: absolute;
+    width: 1.42rem;
+    height: 1.07rem;
+    background: url("../images/mainLogo.jpg") no-repeat;
+    background-size: 100%;
+    left: 0.74rem;
+    top: 0;
+}
+/*第一屏*/
+section:nth-child(1) .card{position:absolute;height:100%;left:0;right:0;top:0;-webkit-transform-style:preserve-3d;-moz-transform-style:preserve-3d;-o-transform-style:preserve-3d;-ms-transform-style:preserve-3d;transform-style:preserve-3d;    background: #fff;
+}
+section .bg_a{
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: url("../images/allbg.png") no-repeat;
+    background-size: 100%;
+    z-index: 5;
+}
+section .white{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -100;
+    background: #fff;
+}
+section .mainTitle{
+    position: absolute;
+    left: 50%;
+    margin-left: -3.205rem;
+    top: 50%;
+    margin-top: -3.675rem;
+    width: 6.41rem;
+    height: 7.35rem;
+    background: url("../images/mainTitle.png") no-repeat;
+    background-size: 100%;
+}
+/*第二屏*/
+section:nth-child(2) .card{background: #fff;position:absolute; width: 100%; height:100%;left:0;right:0;top:0;-webkit-transform-style:preserve-3d;-moz-transform-style:preserve-3d;-o-transform-style:preserve-3d;-ms-transform-style:preserve-3d;transform-style:preserve-3d}
+section .earth{
+    position: absolute;
+    width: 5.24rem;
+    height: 374rem;
+    left: 50%;
+    top: 3.3rem;
+    margin-left: -2.62rem;
+    background: url("../images/earth_bg.png") no-repeat;
+    background-size: 100%;
+    z-index: -100;
+}
+.two .word{
+    position: absolute;
+    left: 50%;
+    margin-left: -3.17rem;
+    top: 1.3rem;
+    width: 6.34rem;
+    height: 1.52rem;
+    background: url("../images/twoWord.png") no-repeat;
+    background-size: 100%;
+}
+.two .word div{
+    position: absolute;
+    left: 6.34rem;
+    top: 0;
+    z-index: 100;
+    width: 6.34rem;
+    height: 1.52rem;
+    background: #fff;
+    animation: word 1s ease;
+    -webkit-animation: word 1s ease;
+
+}
+/*@keyframes word*/
+/*{*/
+    /*0% {*/
+        /*opacity: 0;*/
+        /*-webkit-transform: translateX(0);*/
+    /*}*/
+    /*100% {*/
+        /*opacity: 1;*/
+        /*-webkit-transform: translateX(6.34rem);*/
+    /*}*/
+/*}*/
+
+.two .fiConor{
+    position: absolute;
+    width: 4.61rem;
+    height: 4.38rem;
+    background: url("../images/two_bg.png") no-repeat;
+    background-size: 100%;
+    left: 50%;
+    margin-left: -2.3rem;
+    top: 4.2rem;
+}
+.two .fiConor .two_a{
+    transform: scale(0);
+    position: absolute;
+    width: 1.78rem;
+    height: 2.36rem;
+    left: 50%;
+    margin-left: -0.89rem;
+    top: -1.09rem;
+    background: url("../images/two_a.png") no-repeat;
+    background-size: 100%;
+    animation: five 0.5s ease 1s forwards;
+    -webkit-animation: five 1s ease 1s forwards;
+}
+
+.two .fiConor .two_b{
+    transform: scale(0);
+    position: absolute;
+    width: 1.97rem;
+    height: 2.33rem;
+    right: -0.89rem;
+    top: 1.09rem;
+    background: url("../images/two_b.png") no-repeat;
+    background-size: 100%;
+    animation: five 0.5s ease 1.5s forwards;
+    -webkit-animation: five 0.5s ease 1.5s forwards;
+}
+.two .fiConor .two_e{
+    transform: scale(0);
+    position: absolute;
+    width: 1.97rem;
+    height: 2.33rem;
+    left: -0.89rem;
+    top: 1.09rem;
+    background: url("../images/two_e.png") no-repeat;
+    background-size: 100%;
+    animation: five 0.5s ease 3s forwards;
+    -webkit-animation: five 0.5s ease 3s forwards;
+}
+.two .fiConor .two_c{
+    transform: scale(0);
+    position: absolute;
+    width: 2.24rem;
+    height: 2.49rem;
+    right: -0.5rem;
+    bottom: -1.59rem;
+    background: url("../images/two_c.png") no-repeat;
+    background-size: 100%;
+    animation: five 0.5s ease 2s forwards;
+    -webkit-animation: five 0.5s ease 2s forwards;
+}
+.two .fiConor .two_d{
+    transform: scale(0);
+    position: absolute;
+    width: 2.18rem;
+    height: 2.44rem;
+    left: -0.5rem;
+    bottom: -1.59rem;
+    background: url("../images/two_d.png") no-repeat;
+    background-size: 100%;
+    animation: five 0.5s ease 2.5s forwards;
+    -webkit-animation: five 0.5s ease 2.5s forwards;
+}
+/*第三屏*/
+section:nth-child(3) .card{position:absolute; width: 100%; height:100%;left:0;right:0;top:0;-webkit-transform-style:preserve-3d;-moz-transform-style:preserve-3d;-o-transform-style:preserve-3d;-ms-transform-style:preserve-3d;transform-style:preserve-3d}
+.three .title{
+    width: 2.65rem;
+    height: 0.52rem;
+    background: url("../images/three_title.png") no-repeat;
+    background-size: 100% 100%;
+    margin: 0 auto;
+    margin-top: 1rem;
+}
+.three .step{
+    position: relative;
+    width: 5.49rem;
+    height: 9.78rem;
+    background: url("../images/three_bg.png") no-repeat;
+    background-size: 100% 100%;
+    margin: 0 auto;
+}
+
+.three .step .march{
+    position: absolute;
+    left: 1.4rem;
+    top: 0.9rem;
+    width: 1.97rem;
+    height: 1.16rem;
+    background: url("../images/march.png") no-repeat;
+    background-size: 100% 100%;
+}
+.three .step .may{
+    position: absolute;
+    left: 0.85rem;
+    top: 3.44rem;
+    width: 3.61rem;
+    height: 1.696rem;
+    background: url("../images/may.png") no-repeat;
+    background-size: 100% 100%;
+}
+.three .step .august{
+    position: absolute;
+    left: 1.4rem;
+    top: 6.37rem;
+    width: 2.41rem;
+    height: 1.14rem;
+    background: url("../images/august.png") no-repeat;
+    background-size: 100% 100%;
+}
+
+
+.three .bg_a{
+    background: url("../images/allbg.png") no-repeat;
+    background-size: 100% 100%;
+    z-index: 1000;
+}
+
+.three .step .march div{
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    animation: word_a 1s ease forwards;
+    -webkit-animation: word_a 1s ease forwards;
+}
+.three .step .may div{
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    animation: word_a 1s ease 0.5s forwards;
+    -webkit-animation: word_a 1s ease 0.5s forwards;
+}
+.three .step .august div{
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    animation: word_a 1s ease 1s forwards;
+    -webkit-animation: word_a 1s ease 1s forwards;
+ }
+
+/*第四屏*/
+.four .bg_a{
+    background: url("../images/allbg.png") no-repeat;
+    background-size: 100% 100%;
+    z-index: 1000;
+}
+.four .step .september div{
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    animation: word_a 1s ease forwards;
+    -webkit-animation: word_a 1s ease forwards;
+}
+.four .step .october div{
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    animation: word_a 1s ease 0.5s forwards;
+    -webkit-animation: word_a 1s ease 0.5s forwards;
+}
+.four .step .november div{
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    animation: word_a 1s ease 1s forwards;
+    -webkit-animation: word_a 1s ease 1s forwards;
+}
+
+.four .step .september{
+    position: absolute;
+    left: 1.4rem;
+    top: 0.9rem;
+    width: 2.34rem;
+    height: 1.11rem;
+    background: url("../images/september.png") no-repeat;
+    background-size: 100% 100%;
+}
+.four .step .october{
+    position: absolute;
+    left: 0.65rem;
+    top: 3.44rem;
+    width: 3.6rem;
+    height: 1.3773rem;
+    background: url("../images/october.png") no-repeat;
+    background-size: 100% 100%;
+}
+.four .step .november{
+    position: absolute;
+    left: 1.4rem;
+    top: 6.14rem;
+    width: 3.29rem;
+    height: 1.48rem;
+    background: url("../images/november.png") no-repeat;
+    background-size: 100% 100%;
+}
+.four .title{
+    width: 2.65rem;
+    height: 0.52rem;
+    background: url("../images/three_title.png") no-repeat;
+    background-size: 100% 100%;
+    margin: 0 auto;
+    margin-top: 1rem;
+}
+.four .step{
+    position: relative;
+    width: 5.49rem;
+    height: 9.78rem;
+    background: url("../images/four_bg.png") no-repeat;
+    background-size: 100% 100%;
+    margin: 0 auto;
+}
+/*第五屏*/
+.five .title{
+    width: 2.65rem;
+    height: 0.52rem;
+    background: url("../images/three_title.png") no-repeat;
+    background-size: 100% 100%;
+    margin: 0 auto;
+    margin-top: 1rem;
+}
+.five .step{
+    position: relative;
+    width: 6rem;
+    height: 4.39rem;
+    background: url("../images/five_bg.png") no-repeat;
+    background-size: 100% 100%;
+    margin: 0 auto;
+    z-index: 1100;
+}
+.five .bg_a{
+    background: url("../images/allbg.png") no-repeat;
+    background-size: 100%;
+    z-index: 10000;
+}
+.five .step .janury{
+    position: absolute;
+    left: 1.5rem;
+    top: 1rem;
+    width: 3.28rem;
+    height: 1.11rem;
+    background: url("../images/janury.png") no-repeat;
+    background-size: 100% 100%;
+}
+.five .step .janury div{
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    animation: word_a 1s ease forwards;
+    -webkit-animation: word_a 1s ease forwards;
+}
+.five .step_a{
+    position: relative;
+    width: 100%;
+}
+.five .case{
+    position: absolute;
+    left: 50%;
+    top: 0;
+    margin-left: -2.875rem;
+    width: 5.75rem;
+    height: 2.46rem;
+    opacity: 0;
+    background: url("../images/five_case.png") no-repeat;
+    background-size: 100% 100%;
+    animation: case_a 1s ease 1s forwards;
+    -webkit-animation: case_a 1s ease 1s forwards;
+    z-index: 899;
+}
+.five .total{
+    position: absolute;
+    left: 50%;
+    margin-left: -2.81rem;
+    top: 0;
+    width: 5.62rem;
+    height: 1.45rem;
+    background: url("../images/five_total.png") no-repeat;
+    background-size: 100% 100%;
+    z-index: 888;
+}
+.five .earth{
+    z-index: 999;
+}
+.five .total div{
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    animation: word_a 1s ease 2s forwards;
+    -webkit-animation: word_a 1s ease 2s forwards;
+    z-index: 8;
+}
+/*第六屏*/
+section:nth-child(6) .card{position:absolute; width: 100%; height:100%;left:0;right:0;top:0;-webkit-transform-style:preserve-3d;-moz-transform-style:preserve-3d;-o-transform-style:preserve-3d;-ms-transform-style:preserve-3d;transform-style:preserve-3d}
+.six .title{
+    width: 2.11rem;
+    height: 0.51rem;
+    margin: 0 auto;
+    background: url("../images/six_title.png") no-repeat;
+    background-size: 100% 100%;
+    margin-top: 1rem;
+}
+.six_word{
+    position: relative;
+    width: 4.11rem;
+    height: 1.39rem;
+    background: url("../images/six_word.png") no-repeat;
+    background-size: 100% 100%;
+    margin: 0 auto;
+    margin-top: 1rem;
+}
+.six_word div{
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    animation: word_a 1s ease forwards;
+    -webkit-animation: word_a 1s ease forwards;
+}
+.six .column{
+    position: relative;
+    width: 6.08rem;
+    height: 4.95rem;
+    background: url("../images/six_col.png") no-repeat;
+    background-size: 100% 100%;
+    margin: 0 auto;
+    margin-top: 0.5rem;
+}
+.six .column .short{
+    position: absolute;
+    left: 1.7rem;
+    bottom: 1.2rem;
+    width: 0.59rem;
+    height: 0;
+    background: url("../images/six_short.png") no-repeat;
+    background-size: 100% 100%;
+    animation: column_b 2s ease 1s forwards;
+    -webkit-animation: column_b 2s ease 1s forwards;
+}
+.six .column .long{
+    position: absolute;
+    right: 1.7rem;
+    bottom: 1.2rem;
+    width: 0.59rem;
+    height: 0;
+    background: url("../images/six_long.png") no-repeat;
+    background-size: 100% 100%;
+    animation: column_a 2s ease 1s forwards;
+    -webkit-animation: column_a 2s ease 1s forwards;
+}
+.six .column .same{
+    width: 2.05rem;
+    height: 1.11rem;
+    background: url("../images/six_num.png") no-repeat;
+    background-size: 100% 100%;
+    font-size: 0.29rem;
+    color: #fff;
+    font-family: w3;
+    text-align: center;
+    line-height: 1.11rem;
+}
+.six .column .shortNum{
+    position: absolute;
+    left: 1rem;
+    bottom: 1.4rem;
+    animation: short_num 2s ease 1s forwards;
+    -webkit-animation: short_num 2s ease 1s forwards;
+}
+.six .column .longNum{
+    position: absolute;
+    right: 1rem;
+    bottom: 1.4rem;
+    animation: long_num 2s ease 1s forwards;
+    -webkit-animation: long_num 2s ease 1s forwards;
+}
+.six_total{
+    position: relative;
+    width: 3.23rem;
+    height: 0.33rem;
+    background: url("../images/six_total.png") no-repeat;
+    background-size: 100% 100%;
+    margin: 0 auto;
+    margin-top: 0.6rem;
+}
+.six_total div{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    background: #fff;
+    animation: word_a 1s ease 3s forwards;
+    -webkit-animation: word_a 1s ease 3s forwards;
+}
+/*第七屏*/
+section:nth-child(7) .card{position:absolute; width: 100%; height:100%;left:0;right:0;top:0;-webkit-transform-style:preserve-3d;-moz-transform-style:preserve-3d;-o-transform-style:preserve-3d;-ms-transform-style:preserve-3d;transform-style:preserve-3d}
+.seven .title{
+    width: 2.11rem;
+    height: 0.51rem;
+    margin: 0 auto;
+    background: url("../images/six_title.png") no-repeat;
+    background-size: 100% 100%;
+    margin-top: 1rem;
+    margin-bottom: 0.41rem;
+}
+.seven .sex{
+    width: 50%;
+    float: left;
+    margin-bottom: 0.55rem;
+}
+.seven .style{
+    width: 50%;
+    float: right;
+}
+.sex_title{
+    width: 1.29rem;
+    height: 0.27rem;
+    background: url("../images/seven_sex.png") no-repeat;
+    background-size: 100% 100%;
+    margin-left: 0.3rem;
+    margin-bottom: 0.3rem;
+}
+.style_title{
+    width: 1.9rem;
+    height: 0.29rem;
+    background: url("../images/seven_style.png") no-repeat;
+    background-size: 100% 100%;
+    margin-left: 0.17rem;
+    margin-bottom: 0.3rem;
+}
+.seven div{
+    font-family: w3;
+    font-size: 0.29rem;
+    color: #666;
+    text-align: center;
+}
+.seven .male,.female,.jiangzhe,.jiangxi,.anhui{
+    position: relative;
+    padding-left: 0.3rem;
+    overflow: hidden;
+}
+.seven .sex .male div{
+    float: left;
+}
+.seven .sex .male .blue{
+    position: absolute;
+    height: 0.13rem;
+    width: 0;
+    left: 0.63rem;
+    top: 0.13rem;
+    background: url("../images/seven_blue.jpg") no-repeat;
+    background-size: 100% 100%;
+    animation: blue_a 1s ease forwards;
+    -webkit-animation: blue_a 1s ease forwards;
+}
+.seven .sex .male .persent{
+    position: absolute;
+    left: 0.9rem;
+    animation: persent_a 1s ease forwards;
+    -webkit-animation: persent_a 1s ease forwards;
+}
+.seven .sex .female div{
+    float: left;
+}
+.seven .sex .female .blue{
+    position: absolute;
+    height: 0.13rem;
+    width: 0;
+    left: 0.63rem;
+    top: 0.13rem;
+    background: url("../images/seven_blue.jpg") no-repeat;
+    background-size: 100% 100%;
+    animation: blue_b 1s ease forwards;
+    -webkit-animation: blue_b 1s ease forwards;
+}
+.seven .sex .female .persent{
+    position: absolute;
+    left: 0.9rem;
+    animation: persent_b 1s ease forwards;
+    -webkit-animation: persent_b 1s ease forwards;
+}
+.seven .style_a{
+    position: relative;
+}
+.seven .style .blue_a{
+    position: absolute;
+    width: 3.24rem;
+    height: 0.13rem;
+    background: #d7e9ff;
+    top: 0.13rem;
+}
+.seven .style .car{
+    position: absolute;
+    left: 1.2rem;
+    top: 0.33rem;
+}
+.seven .style .year{
+    position: absolute;
+    top: 0.33rem;
+    left: 2.6rem;
+}
+.seven .local{
+    float: left;
+    width: 100%;
+    margin-bottom: 0.3rem;
+}
+.seven .local .local_title{
+    margin-left: 0.3rem;
+    width: 1.29rem;
+    height: 0.27rem;
+    background: url("../images/seven_local.png") no-repeat;
+    background-size: 100% 100%;
+    margin-bottom: 0.3rem;
+}
+
+.seven .jiangzhe,.jiangxi,.anhui{
+    float: left;
+    width: 100%;
+}
+.seven .local div{
+    float: left;
+}
+.seven .jiangzhe .blue{
+    position: absolute;
+    height: 0.13rem;
+    width: 0;
+    left: 1rem;
+    top: 0.13rem;
+    background: url("../images/seven_blue.jpg") no-repeat;
+    background-size: 100% 100%;
+    animation: blue_c 1s ease forwards;
+    -webkit-animation: blue_c 1s ease forwards;
+}
+.seven .jiangzhe .persent{
+    position: absolute;
+    left: 0.9rem;
+    animation: persent_c 1s ease forwards;
+    -webkit-animation: persent_c 1s ease forwards;
+}
+.seven .jiangxi .blue{
+    position: absolute;
+    height: 0.13rem;
+    width: 0;
+    left: 1rem;
+    top: 0.13rem;
+    background: url("../images/seven_blue.jpg") no-repeat;
+    background-size: 100% 100%;
+    animation: blue_d 1s ease forwards;
+    -webkit-animation: blue_d 1s ease forwards;
+}
+.seven .jiangxi .persent{
+    position: absolute;
+    left: 0.9rem;
+    animation: persent_d 1s ease forwards;
+    -webkit-animation: persent_d 1s ease forwards;
+}
+.seven .anhui .blue{
+    position: absolute;
+    height: 0.13rem;
+    width: 0;
+    left: 1rem;
+    top: 0.13rem;
+    background: url("../images/seven_blue.jpg") no-repeat;
+    background-size: 100% 100%;
+    animation: blue_e 1s ease forwards;
+    -webkit-animation: blue_e 1s ease forwards;
+}
+.seven .anhui .persent{
+    position: absolute;
+    left: 0.9rem;
+    animation: persent_e 1s ease forwards;
+    -webkit-animation: persent_e 1s ease forwards;
+}
+.seven .style .blue_a span{
+    float: left;
+    height: 100%;
+    width: 0;
+    background: #3892ff;
+    animation: blue_f 1s ease forwards;
+    -webkit-animation: blue_f 1s ease forwards;
+}
+.seven .age{
+    float: left;
+    width: 100%;
+    margin: 0 auto;
+}
+.seven .age .age_title{
+    margin: 0 auto;
+    width: 1.83rem;
+    height: 0.31rem;
+    background: url("../images/seven_age.png") no-repeat;
+    background-size: 100% 100%;
+}
+.seven .age .age_col{
+    position: relative;
+    margin: 0 auto;
+    width: 7.12rem;
+    height: 3.54rem;
+    background: url("../images/age_bg.png") no-repeat;
+    background-size: 100% 100%;
+}
+.seven .age .age_col div{
+    width: 1.3rem;
+    height: 0.59rem;
+    line-height: 0.59rem;
+    font-size: 0.26rem;
+    color: #fff;
+    font-family: w3;
+    background: url("../images/six_num.png") no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    bottom: 0.6rem;
+}
+.seven .age .age_col .a{
+    left: -0.3rem;
+    animation: up_a 1s ease 1s forwards;
+    -webkit-animation: up_a 1s ease 1s forwards;
+}
+.seven .age .age_col .b{
+    left: 0.54rem;
+    animation: up_b 1s ease 1s forwards;
+    -webkit-animation: up_b 1s ease 1s forwards;
+}
+.seven .age .age_col .c{
+    left: 1.49rem;
+    animation: up_c 1s ease 1s forwards;
+    -webkit-animation: up_c 1s ease 1s forwards;
+}
+.seven .age .age_col .d{
+    left: 2.26rem;
+    animation: up_d 1s ease 1s forwards;
+    -webkit-animation: up_d 1s ease 1s forwards;
+}
+.seven .age .age_col .e{
+    animation: up_e 1s ease 1s forwards;
+    -webkit-animation: up_e 1s ease 1s forwards;
+    left: 3.2rem;
+}
+.seven .age .age_col .f{
+    left: 4.2rem;
+    animation: up_f 1s ease 1s forwards;
+    -webkit-animation: up_f 1s ease 1s forwards;
+}
+.seven .age .age_col .g{
+    left: 5.15rem;
+    animation: up_g 1s ease 1s forwards;
+    -webkit-animation: up_g 1s ease 1s forwards;
+}
+.seven .age .age_col .h{
+    left: 6rem;
+    animation: up_h 1s ease 1s forwards;
+    -webkit-animation: up_h 1s ease 1s forwards;
+}
+
+/*第八屏*/
+section:nth-child(8) .card{position:absolute; width: 100%; height:100%;left:0;right:0;top:0;-webkit-transform-style:preserve-3d;-moz-transform-style:preserve-3d;-o-transform-style:preserve-3d;-ms-transform-style:preserve-3d;transform-style:preserve-3d}
+.eight .card .title{
+    width: 2.1rem;
+    height: 0.51rem;
+    background: url("../images/eight_title.png") no-repeat;
+    background-size: 100% 100%;
+    margin: 0 auto;
+    margin-top: 1rem;
+    margin-bottom: 0.44rem;
+}
+.eight .eight_word{
+    position: relative;
+    width: 5.22rem;
+    height: 1.84rem;
+    background: url("../images/eight_word.png") no-repeat;
+    background-size: 100% 100%;
+    margin: 0 auto;
+}
+.eight .eight_word span{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    right: 0;
+    top: 0;
+    animation: word_a 1s ease forwards;
+    -webkit-animation: word_a 1s ease forwards;
+}
+.eight .eight_opac{
+    width: 7.04rem;
+    height: 5.05rem;
+    background: url("../images/eight_opac.png") no-repeat;
+    background-size: 100% 100%;
+    margin: 0 auto;
+    opacity: 0;
+    animation: opac 2s ease 1s forwards;
+    -webkit-animation: opac 2s ease 1s forwards;
+}
+.eight .eight_total{
+    position: relative;
+    margin: 0.2rem auto;
+    width: 5.37rem;
+    height: 0.85rem;
+    background: url("../images/eight_total.png") no-repeat;
+    background-size: 100% 100%;
+}
+.eight .eight_total span{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    right: 0;
+    animation: word_a 1s ease 2s forwards;
+    -webkit-animation: word_a 1s ease 2s forwards;
+}
+/*第九屏*/
+section:nth-child(9) .card{position:absolute; width: 100%; height:100%;left:0;right:0;top:0;-webkit-transform-style:preserve-3d;-moz-transform-style:preserve-3d;-o-transform-style:preserve-3d;-ms-transform-style:preserve-3d;transform-style:preserve-3d}
+.nine .card .title{
+    width: 2.1rem;
+    height: 0.51rem;
+    background: url("../images/nine_title.png") no-repeat;
+    background-size: 100% 100%;
+    margin: 0 auto;
+    margin-top: 1rem;
+    margin-bottom: 0.44rem;
+}
+.nine .nine_word{
+    position: relative;
+    width: 4.98rem;
+    height: 1.73rem;
+    background: url("../images/nine_word.png") no-repeat;
+    background-size: 100% 100%;
+    margin: 0 auto;
+    margin-bottom: 0.6rem;
+}
+.nine .nine_word span{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    right: 0;
+    animation: word_a 1s ease forwards;
+    -webkit-animation: word_a 1s ease forwards;
+}
+.nine .nine_four{
+    position: relative;
+    width: 1.06rem;
+    height: 1.29rem;
+    margin: 0 auto;
+}
+.nine .nine_four .same{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 1.06rem;
+    height: 1.29rem;
+    opacity: 0;
+    background: url("../images/nine_four.png") no-repeat;
+    background-size: 100% 100%;
+}
+.nine .nine_four .aa{
+    animation: same_aa 1s ease forwards;
+    -webkit-animation: same_aa 1s ease forwards;
+}
+.nine .nine_four .aa .noaa{
+    position: absolute;
+    width: 2.22rem;
+    height: 0.98rem;
+    opacity: 0;
+    background: url("../images/four_aa.png") no-repeat;
+    background-size: 100% 100%;
+    animation: noaa 0.5s ease 2s forwards;
+    -webkit-animation: noaa 0.5s ease 2s forwards;
+    right: 0;
+}
+
+.nine .nine_four .bb{
+    animation: same_bb 1s ease 0.5s forwards;
+    -webkit-animation: same_bb 1s ease 0.5s forwards;
+}
+.nine .nine_four .bb .nobb{
+    position: absolute;
+    width: 1.9rem;
+    height: 0.64rem;
+    opacity: 0;
+    background: url("../images/four_bb.png") no-repeat;
+    background-size: 100% 100%;
+    left: 0;
+    top: 0.25rem;
+    animation: nobb 0.5s ease 2.5s forwards;
+    -webkit-animation: nobb 0.5s ease 2.5s forwards;
+}
+.nine .nine_four .cc{
+    animation: same_cc 1s ease 1s forwards;
+    -webkit-animation: same_cc 1s ease 1s forwards;
+}
+.nine .nine_four .cc .nocc{
+    position: absolute;
+    width: 1.97rem;
+    height: 0.63rem;
+    opacity: 0;
+    background: url("../images/four_cc.png") no-repeat;
+    background-size: 100% 100%;
+    right: 0;
+    top: 0.25rem;
+    animation: nocc 0.5s ease 3s forwards;
+    -webkit-animation: nocc 0.5s ease 3s forwards;
+}
+.nine .nine_four .dd{
+    animation: same_dd 1s ease 1.5s forwards;
+    -webkit-animation: same_dd 1s ease 1.5s forwards;
+}
+.nine .nine_four .dd .nodd{
+    position: absolute;
+    width: 2.16rem;
+    height: 0.62rem;
+    opacity: 0;
+    background: url("../images/four_dd.png") no-repeat;
+    background-size: 100% 100%;
+    left: 0;
+    top: 0.3rem;
+    animation: nodd 0.5s ease 3.5s forwards;
+    -webkit-animation: nodd 0.5s ease 3.5s forwards;
+}
+/*第十屏*/
+section:nth-child(10) .card{position:absolute; width: 100%; height:100%;left:0;right:0;top:0;-webkit-transform-style:preserve-3d;-moz-transform-style:preserve-3d;-o-transform-style:preserve-3d;-ms-transform-style:preserve-3d;transform-style:preserve-3d}
+.ten .card .title{
+    width: 3.17rem;
+    height: 0.54rem;
+    background: url("../images/ten_title.png") no-repeat;
+    background-size: 100% 100%;
+    margin: 0 auto;
+    margin-top: 1.2rem;
+    margin-bottom: 0.2rem;
+}
+.ten .ten_case{
+    position: absolute;
+    left: 50%;
+    margin-left: -2.857rem;
+    width: 5.75rem;
+    height: 1.43rem;
+    opacity: 0;
+    background: url("../images/ten_case.png") no-repeat;
+    background-size: 100% 100%;
+    animation: ten_case 1s ease forwards;
+    -webkit-animation: ten_case 1s ease forwards;
+}
+.ten .ten_five{
+    position: relative;
+    width: 1.06rem;
+    height: 1.29rem;
+    margin: 0 auto;
+}
+.ten .ten_five .same{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 1.06rem;
+    height: 1.29rem;
+    opacity: 0;
+    background: url("../images/nine_four.png") no-repeat;
+    background-size: 100% 100%;
+}
+.ten .ten_five .aa{
+    animation: same_aa 1s ease 1s forwards;
+    -webkit-animation: same_aa 1s ease 1s forwards;
+}
+.ten .ten_five .bb{
+    animation: same_bb 1s ease 1.5s forwards;
+    -webkit-animation: same_bb 1s ease 1.5s forwards;
+}
+.ten .ten_five .cc{
+    animation: same_cc 1s ease 2s forwards;
+    -webkit-animation: same_cc 1s ease 2s forwards;
+}
+.ten .ten_five .dd{
+    animation: same_dd 1s ease 2.5s forwards;
+    -webkit-animation: same_dd 1s ease 2.5s forwards;
+}
+.ten .ten_five .ee{
+    animation: same_ee 1s ease 3s forwards;
+    -webkit-animation: same_ee 1s ease 3s forwards;
+}
+.ten .five_aa{
+    position: absolute;
+    width: 2.95rem;
+    height: 1rem;
+    opacity: 0;
+    background: url("../images/five_aa.png") no-repeat;
+    background-size: 100% 100%;
+    left: 0;
+    top: 0.1rem;
+    animation: five_aa 0.5s ease 4s forwards;
+    -webkit-animation: five_aa 0.5s ease 4s forwards;
+}
+.ten .five_bb{
+    position: absolute;
+    width: 2.79rem;
+    height: 1.36rem;
+    opacity: 0;
+    background: url("../images/five_bb.png") no-repeat;
+    background-size: 100% 100%;
+    right: 0;
+    animation: five_bb 0.5s ease 4.5s forwards;
+    -webkit-animation: five_bb 0.5s ease 4.5s forwards;
+}
+.ten .five_cc{
+    position: absolute;
+    width: 2.73rem;
+    height: 1rem;
+    opacity: 0;
+    background: url("../images/five_cc.png") no-repeat;
+    background-size: 100% 100%;
+    left: 0;
+    top: 0.1rem;
+    animation: five_cc 0.5s ease 5s forwards;
+    -webkit-animation: five_cc 0.5s ease 5s forwards;
+}
+.ten .five_dd{
+    position: absolute;
+    width: 2.79rem;
+    height: 1.34rem;
+    opacity: 0;
+    background: url("../images/five_dd.png") no-repeat;
+    background-size: 100% 100%;
+    right: 0;
+    animation: five_bb 0.5s ease 5.5s forwards;
+    -webkit-animation: five_bb 0.5s ease 5.5s forwards;
+}
+.ten .five_ee{
+    position: absolute;
+    width: 2.77rem;
+    height: 1.35rem;
+    opacity: 0;
+    background: url("../images/five_ee.png") no-repeat;
+    background-size: 100% 100%;
+    left: 0;
+    top: 0.1rem;
+    animation: five_ee 0.5s ease 6s forwards;
+    -webkit-animation: five_ee 0.5s ease 6s forwards;
+}
+/*第十一屏*/
+section:nth-child(11) .card{position:absolute; width: 100%; height:100%;left:0;right:0;top:0;-webkit-transform-style:preserve-3d;-moz-transform-style:preserve-3d;-o-transform-style:preserve-3d;-ms-transform-style:preserve-3d;transform-style:preserve-3d}
+.eleven .card .title{
+    width: 2.08rem;
+    height: 0.54rem;
+    background: url("../images/eleven_title.png") no-repeat;
+    background-size: 100% 100%;
+    margin: 0 auto;
+    margin-top: 1.2rem;
+    margin-bottom: 0.2rem;
+}
+.eleven .eleven_word{
+    width: 5rem;
+    height: 2.63rem;
+    position: relative;
+    background: url("../images/eleven_word.png") no-repeat;
+    background-size: 100% 100%;
+    margin: 0 auto;
+}
+.eleven .eleven_word span{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    right: 0;
+    top: 0;
+    animation: word_a 1s ease forwards;
+    -webkit-animation: word_a 1s ease forwards;
+}
+.eleven .eleven_active{
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url("../images/eleven_card.png") no-repeat;
+    background-size: 100% 100%;
+    z-index: -3;
+}
+.eleven .container{
+    position: absolute;
+    left: 50%;
+    margin-left: -2.67rem;
+    width: 5.34rem;
+    height: 6.38rem;
+    background: url("../images/eleven_container.png") no-repeat;
+    background-size: 100% 100%;
+}
+.eleven .con_title{
+    width: 2.74rem;
+    height: 0.37rem;
+    background: url("../images/con_title.png") no-repeat;
+    background-size: 100% 100%;
+    margin: 0.9rem auto 0.37rem;
+}
+.eleven .con_aa{
+    width: 2.53rem;
+    height: 0.3rem;
+    background: url("../images/con_aa.png") no-repeat;
+    background-size: 100% 100%;
+    margin: 0 auto;
+}
+.eleven .con_bb{
+    width: 3.26rem;
+    height: 0.28rem;
+    background: url("../images/con_bb.png") no-repeat;
+    background-size: 100% 100%;
+    margin: 0 auto;
+}
+.eleven .con_cc{
+    width: 1.85rem;
+    height: 0.28rem;
+    background: url("../images/con_cc.png") no-repeat;
+    background-size: 100% 100%;
+    margin: 0 auto;
+}
+.eleven .con_dd{
+    width: 2.94rem;
+    height: 0.3rem;
+    background: url("../images/con_dd.png") no-repeat;
+    background-size: 100% 100%;
+    margin: 0 auto;
+}
+.eleven .con_ee{
+    width: 1.21rem;
+    height: 0.28rem;
+    background: url("../images/con_ee.png") no-repeat;
+    background-size: 100% 100%;
+    margin: 0 auto;
+}
+.eleven .con_ff{
+    width: 3.26rem;
+    height: 0.29rem;
+    background: url("../images/con_ff.png") no-repeat;
+    background-size: 100% 100%;
+    margin: 0 auto;
+}
+.eleven .con_gg{
+    width: 2.63rem;
+    height: 0.28rem;
+    background: url("../images/con_gg.png") no-repeat;
+    background-size: 100% 100%;
+    margin: 0 auto;
+}
+.eleven .con_hh{
+    width: 1.21rem;
+    height: 0.28rem;
+    background: url("../images/con_hh.png") no-repeat;
+    background-size: 100% 100%;
+    margin: 0 auto;
+}
+.eleven .con_ii{
+    width: 2.37rem;
+    height: 0.33rem;
+    background: url("../images/con_ii.png") no-repeat;
+    background-size: 100% 100%;
+    margin: 0 auto;
+}
+.eleven .container .same{
+    position: relative;
+    margin-bottom: 0.15rem;
+}
+.eleven .container .same span{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    background: #fff;
+}
+.eleven .con_aa span{
+    animation: word_a 0.5s ease 1s forwards;
+    -webkit-animation: word_a 0.5s ease 1s forwards;
+}
+.eleven .con_bb span{
+    animation: word_a 0.5s ease 1.5s forwards;
+    -webkit-animation: word_a 0.5s ease 1.5s forwards;
+}
+.eleven .con_cc span{
+    animation: word_a 0.5s ease 2s forwards;
+    -webkit-animation: word_a 0.5s ease 2s forwards;
+}
+.eleven .con_dd span{
+    animation: word_a 0.5s ease 2.5s forwards;
+    -webkit-animation: word_a 0.5s ease 2.5s forwards;
+}
+.eleven .con_ee span{
+    animation: word_a 0.5s ease 3s forwards;
+    -webkit-animation: word_a 0.5s ease 3s forwards;
+}
+.eleven .con_ff span{
+    animation: word_a 0.5s ease 3.5s forwards;
+    -webkit-animation: word_a 0.5s ease 3.5s forwards;
+}
+.eleven .con_gg span{
+    animation: word_a 0.5s ease 4s forwards;
+    -webkit-animation: word_a 0.5s ease 4s forwards;
+}
+.eleven .con_hh span{
+    animation: word_a 0.5s ease 4.5s forwards;
+    -webkit-animation: word_a 0.5s ease 4.5s forwards;
+}
+.eleven .con_ii span{
+    animation: word_a 0.5s ease 5s forwards;
+    -webkit-animation: word_a 0.5s ease 5s forwards;
+}
+/*第十二屏*/
+section:nth-child(12) .card{position:absolute; width: 100%; height:100%;left:0;right:0;top:0;-webkit-transform-style:preserve-3d;-moz-transform-style:preserve-3d;-o-transform-style:preserve-3d;-ms-transform-style:preserve-3d;transform-style:preserve-3d}
+.twelve .card .title{
+    width: 100%;
+}
+.twelve .twelve_word{
+    position: relative;
+    top: -1.3rem;
+    width: 100%;
+}
+.twelve .twelve_word .aa{
+    width: 3.95rem;
+    height: 0.42rem;
+    background: url("../images/twelve_aa.png") no-repeat;
+    background-size: 100% 100%;
+    margin: 0 auto;
+    margin-bottom: 0.2rem;
+
+}
+.twelve .twelve_word .bb{
+    width: 6.04rem;
+    height: 0.47rem;
+    background: url("../images/twelve_bb.png") no-repeat;
+    background-size: 100% 100%;
+    margin: 0 auto;
+    margin-bottom: 0.2rem;
+
+}
+.twelve .twelve_word .cc{
+    width: 3.51rem;
+    height: 0.44rem;
+    background: url("../images/twelve_cc.png") no-repeat;
+    background-size: 100% 100%;
+    margin: 0 auto;
+    margin-bottom: 0.2rem;
+
+}
+.twelve .twelve_word div{
+    position: relative;
+}
+.twelve .twelve_word div span{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    right: 0;
+    background: #fff;
+}
+.twelve .twelve_word .aa span{
+    animation: word_a 1s ease forwards;
+    -webkit-animation: word_a 1s ease forwards;
+}
+.twelve .twelve_word .bb span{
+    animation: word_a 1s ease 1s forwards;
+    -webkit-animation: word_a 1s ease 1s forwards;
+}
+.twelve .twelve_word .cc span{
+    animation: word_a 1s ease 2s forwards;
+    -webkit-animation: word_a 1s ease 2s forwards;
+}
+.twelve .download{
+    width: 5.45rem;
+    height: 1.65rem;
+    left: 50%;
+    margin-left: -2.725rem;
+    background: url("../images/twelve_button.png") no-repeat;
+    background-size: 100% 100%;
+    bottom: 0;
+    opacity: 0;
+    animation: download 1s ease 2s forwards;
+    -webkit-animation: download 1s ease 2s forwards;
+}
+@keyframes download
+{
+    /*0% {opacity: 1;transform: translateY(-2.5rem);}*/
+    50% {opacity: 0.5;transform: translateY(-1rem);}
+    100% {opacity: 1;transform: translateY(0);}
+}
+@keyframes five_ee
+{
+    100% {opacity: 1;transform: translateX(-2.77rem);}
+}
+@keyframes five_cc
+{
+    100% {opacity: 1;transform: translateX(-2.73rem);}
+}
+@keyframes five_bb
+{
+    100% {opacity: 1;transform: translateX(2.79rem);}
+}
+@keyframes five_aa
+{
+    100% {opacity: 1;transform: translateX(-2.95rem);}
+}
+@keyframes ten_case
+{
+
+    100% {opacity: 1;transform: translateY(7.3rem);}
+}
+@keyframes noaa
+{
+    100% {opacity: 1;transform: translateX(2.22rem);}
+}
+@keyframes nobb
+{
+    100% {opacity: 1;transform: translateX(-1.9rem);}
+}
+@keyframes nocc
+{
+    100% {opacity: 1;transform: translateX(1.97rem);}
+}
+@keyframes nodd
+{
+    100% {opacity: 1;transform: translateX(-2.16rem);}
+}
+@keyframes same_aa
+{
+    100% {opacity: 1;}
+}
+@keyframes same_bb
+{
+    100% {transform: translateY(1.47rem);opacity: 1;}
+}
+@keyframes same_cc
+{
+    100% {transform: translateY(2.94rem);opacity: 1;}
+}
+@keyframes same_dd
+{
+    100% {transform: translateY(4.41rem);opacity: 1;}
+}
+@keyframes same_ee
+{
+    100% {transform: translateY(5.8rem);opacity: 1;}
+}
+@keyframes opac
+{
+    100% {opacity: 1;}
+}
+@keyframes up_a
+{
+    100% {bottom: 1.3rem;}
+}
+@keyframes up_b
+{
+    100% {bottom: 2.5rem;}
+}
+@keyframes up_c
+{
+    100% {bottom: 2.5rem;}
+}
+@keyframes up_d
+{
+    100% {bottom: 2.1rem;}
+}
+@keyframes up_e
+{
+    100% {bottom: 2.3rem;}
+}
+@keyframes up_f
+{
+    100% {bottom: 1.8rem;}
+}
+@keyframes up_g
+{
+    100% {bottom: 1.5rem;}
+}
+@keyframes up_h
+{
+    100% {bottom: 1.1rem;}
+}
+@keyframes blue_f
+{
+    100% {width: 2.85rem;}
+}
+@keyframes persent_e
+{
+    100% {left: 1.7rem;}
+}
+@keyframes blue_e
+{
+    100% {width: 0.53rem;}
+}
+@keyframes persent_d
+{
+    100% {left: 2.2rem;}
+}
+@keyframes blue_d
+{
+    100% {width: 1.1rem;}
+}
+@keyframes persent_c
+{
+    100% {left: 4.8rem;}
+}
+@keyframes blue_c
+{
+    100% {width: 3.71rem;}
+}
+
+
+
+@keyframes blue_a
+{
+    100% {width: 1.66rem;}
+}
+@keyframes blue_b
+{
+    100% {width: 0.72rem;}
+}
+@keyframes persent_a
+{
+    100% {left: 2.5rem;}
+}
+@keyframes persent_b
+{
+    100% {left: 1.55rem;}
+}
+
+@keyframes short_num
+{
+    100% {bottom: 2.58rem;}
+}
+@keyframes long_num
+{
+    100% {bottom: 4.34rem;}
+}
+@keyframes column_a
+{
+    100% {height: 3.24rem;}
+}
+@keyframes column_b
+{
+    100% {height: 1.48rem;}
+}
+
+
+@keyframes case_a
+{
+    100% {top: 1.5rem;opacity: 1;}
+}
+@-moz-keyframes case_a
+{
+    100% {top: 1.5rem;opacity: 1;}
+}
+@-webkit-keyframes case_a
+{
+    100% {top: 1.5rem;opacity: 1;}
+}
+@-o-keyframes case_a
+{
+    100% {top: 1.5rem;opacity: 1;}
+}
+
+
+@keyframes word_a
+{
+    100% {width: 0;}
+}
+@-moz-keyframes word_a
+{
+    100% {width: 0;}
+}
+@-webkit-keyframes word_a
+{
+    100% {width: 0;}
+}
+@-o-keyframes word_a
+{
+    100% {width: 0;}
+}
+
+
+
+@keyframes word
+{
+    0% {left: 0;}
+    100% {left: 6.34rem;}
+}
+@-moz-keyframes word
+{
+    0% {left: 0;}
+    100% {left: 6.34rem;}
+}
+@-webkit-keyframes word
+{
+    0% {left: 0;}
+    100% {left: 6.34rem;}
+}
+@-o-keyframes word
+{
+    0% {left: 0;}
+    100% {left: 6.34rem;}
+}
+@keyframes five
+{
+    100% {transform: scale(1);}
+}
+@-moz-keyframes five
+{
+    100% {transform: scale(1);}
+}
+@-webkit-keyframes five
+{
+    100% {transform: scale(1);}
+}
+@-o-keyframes five
+{
+    100% {transform: scale(1);}
+}
